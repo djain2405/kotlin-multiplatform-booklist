@@ -39,7 +39,7 @@ class BookAdapter : RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
         fun bind(book: Book) {
             binding.bookName.text = book.name
-            binding.bookDescription.text = book.description
+            binding.bookDescription.text = book.desc
             binding.bookAuthor.text = book.author
         }
     }

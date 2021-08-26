@@ -1,3 +1,3 @@
 package com.example.kmpapp
 
-data class Book(val name: String, val description: String, val author: String)
+data class Book(val name: String, val desc: String, val author: String)
